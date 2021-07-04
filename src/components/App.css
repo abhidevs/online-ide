@@ -1,0 +1,15 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-pane {
+  background-color: hsl(225, 6%, 25%);
+  flex: 1;
+}
+
+.pane {
+  height: 50vh;
+  min-height: 100%;
+  display: flex;
+}
